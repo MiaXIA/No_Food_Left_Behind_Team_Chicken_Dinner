@@ -7,3 +7,22 @@
 //
 
 import Foundation
+
+class SubscriptionManager {
+    
+    func checkSubscription(_ toCheck: Subscriber){
+        //TODO
+    }
+    
+    func saveSubscriber(_ toSave: Subscriber) {
+        //TODO
+    }
+    
+    func removeSubscriber(_ index: Int) {
+        //TODO
+    }
+    
+    func sendAlert(_ subscriptionList: Subscriber) {
+        //TODO
+    }
+}

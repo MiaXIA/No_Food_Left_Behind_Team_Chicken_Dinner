@@ -7,3 +7,19 @@
 //
 
 import Foundation
+
+class Subscriber: NSObject {
+    let floor: Int
+    let foodInfo: Int
+    let contact: Double
+    
+    let floorKey = "floor"
+    let foodInfoKey = "foodInfo"
+    let contactKey = "contact"
+    
+    init(floor: Int, foodInfo: Int, contact: Double) {
+        self.floor = floor
+        self.foodInfo = foodInfo
+        self.contact = contact
+    }
+}

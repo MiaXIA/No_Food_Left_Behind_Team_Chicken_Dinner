@@ -7,3 +7,20 @@
 //
 
 import Foundation
+
+class FoodInformationManager {
+    
+    func fetchFoodInformation() -> [FoodInformationCell] {
+        //TODO
+        
+        return [FoodInformationCell]()
+    }
+    
+    func saveFoodInformation(_ foodList: FoodInformationCell) {
+        //TODO
+    }
+    
+    func removeFoodInformation(_ index: Int) {
+        //TODO
+    }
+}
